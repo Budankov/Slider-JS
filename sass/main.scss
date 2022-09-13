@@ -1,0 +1,47 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.slider {
+  max-width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.slider-line {
+  width: 100%;
+  display: flex;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+// Слайдер з кнопками на по краям
+// .button {
+//   position: absolute;
+//   font-family: FontAwesome;
+//   font-size: 45px;
+//   color: white;
+//   background-color: transparent;
+//   border: none;
+//   z-index: 10;
+// }
+
+// .slider-prev {
+//   left: 0;
+//   top: 50%;
+// }
+// .slider-next {
+//   right: 0;
+//   top: 50%;
+// }
